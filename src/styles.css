@@ -1,0 +1,89 @@
+body {
+  background: #3e588f;
+}
+
+button {
+  background: #007cb9;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #007cb9;
+  border-radius: 6px;
+  transition: all 150ms ease-in-out;
+}
+
+button:hover {
+  background: #fff;
+  color: #007cb9;
+  cursor: pointer;
+}
+
+img {
+  width: 130px;
+  position: fixed;
+  left: 400px;
+  top: 160px;
+}
+
+.row {
+  font-family: monospace;
+  font-size: 20px;
+  color: #203562;
+}
+
+.col {
+  text-align: center;
+}
+
+p {
+  font-family: monospace;
+  color: #676768;
+}
+
+ul {
+  list-style: none;
+}
+
+#city {
+  font-family: monospace;
+  color: #676768;
+}
+
+#date {
+  font-family: monospace;
+  color: #676768;
+}
+
+#temperature {
+  font-family: monospace;
+  color: #676768;
+}
+
+#description {
+  position: fixed;
+  top: 125px;
+  left: 430px;
+  color: #007cb9;
+}
+
+p {
+  position: fixed;
+  top: 160px;
+  right: 580px;
+}
+
+.forecast {
+  color: #007cb9;
+  top: 280px;
+  left: 100px;
+}
+
+.units {
+  font-family: monospace;
+  color: #676768;
+  position: relative;
+  right: -25px;
+  top: -24px;
+}
