@@ -2,6 +2,14 @@ body {
   background: #3e588f;
 }
 
+.weather-app-body {
+  padding: 20px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  margin: 30px auto;
+  background: #fff;
+}
+
 button {
   background: #007cb9;
   color: #fff;
@@ -18,6 +26,12 @@ button:hover {
   background: #fff;
   color: #007cb9;
   cursor: pointer;
+}
+
+h1 {
+  font-family: monospace;
+  font-size: 25px;
+  color: #676768;
 }
 
 img {
@@ -37,62 +51,16 @@ img {
   text-align: center;
 }
 
-p {
-  font-family: monospace;
-  color: #676768;
-}
-
-ul {
+li {
   list-style: none;
 }
 
-#city {
-  font-family: monospace;
-  color: #676768;
-}
-
-#date {
-  font-family: monospace;
-  color: #676768;
-}
-
-#temperature {
-  font-family: monospace;
-  color: #676768;
-}
-
-#description {
-  position: fixed;
-  top: 70px;
-  left: 430px;
-  color: #007cb9;
-}
-
 p {
-  position: fixed;
-  top: 160px;
-  right: 580px;
-}
-
-.forecast {
   color: #007cb9;
-  position: fixed;
-  top: 220px;
-  left: 135px;
-}
-
-.units {
-  font-family: monospace;
-  color: #676768;
-  position: relative;
-  right: -25px;
-  top: -24px;
 }
 
 .github-repository-link {
+  text-align: center;
   font-size: 16px;
   color: #fff;
-  position: relative;
-  bottom: -350px;
-  left: 600px;
 }
