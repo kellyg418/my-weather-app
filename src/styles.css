@@ -34,6 +34,11 @@ h1 {
   color: #676768;
 }
 
+h2 {
+  font-family: monospace;
+  font-size: 16px;
+}
+
 img {
   width: 130px;
   position: fixed;
@@ -51,6 +56,10 @@ img {
   text-align: center;
 }
 
+.weather-emojis {
+  font-size: 40px;
+}
+
 li {
   list-style: none;
 }
@@ -59,7 +68,7 @@ p {
   color: #007cb9;
 }
 
-.github-repository-link {
+small {
   text-align: center;
   font-size: 16px;
   color: #fff;

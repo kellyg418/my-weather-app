@@ -33,15 +33,13 @@
           <button>Search City</button>
         </form>
         <h1 id="city">Los Angeles</h1>
-        <ul>
-          <li><span id="date"></span></li>
-          <li id="description"></li>
-        </ul>
+        <h2><span id="date"></span></h2>
+        <h2 id="description"></h2>
       <div class="row">
         <div class="col-6">
-            <img src="images/sun-and-rain.webp" alt="Clear" id="icon" class="float-left" />
-            <div class="float-left">
-              <strong id="temperature"></strong><span class="units"> °C</span>
+            <img src="images/sun-and-rain.webp" alt="Clear" id="icon" />
+            <div>
+              <strong id="temperature"></strong><span class="units"> °C | F°</span>
           </div>
         </div>
         <div class="col-6">
@@ -61,11 +59,13 @@
           <div class="col">Friday</div>
         </div>
         <div class="row">
+            <div class="d-flex weather-emojis">
           <div class="col">🌦</div>
           <div class="col">☀️</div>
           <div class="col">☁️</div>
           <div class="col">☁️</div>
           <div class="col">🌦</div>
+            </div>
         </div>
         <div class="row">
           <div class="col">60°</div>
@@ -80,13 +80,12 @@
           <div class="col">H:66° L:57°</div>
           <div class="col">H:66° L:57°</div>
           <div class="col">H:61° L:50°</div>
-        </div>     
-      </div>
-     </div>
-    <div class="github-repository-link">
-      Coded by Kelly Granados |
-      <a href="https://github.com/kellyg418/my-weather-app" target="_blank">Open-Source Code</a>
+        </div> 
     </div>
+    </div>   
+    <small>
+      <a href="https://github.com/kellyg418/my-weather-app" target="_blank">Open-Source Code</a>, by Kelly Granados
+    </small>
     <script src="src/index.js"></script>
  </body>
 </html>
