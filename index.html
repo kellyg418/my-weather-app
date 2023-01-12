@@ -49,16 +49,16 @@
             <ul>
               <li class="city" id="city"></li>
               <li><span id="date"></span></li>
-              <li id="description">Mist</li>
+              <li id="description"></li>
             </ul>
           </div>
           <div class="row">
             <div class="col-6">
               <img src="" alt="Clear" id="icon" />
-              <strong id="temperature"></strong
+              <strong class="current-temperature" id="temperature"></strong
               ><span class="units">
-                <a href="#" id="fahrenheit-link">°F</a> |
-                <a href="#" id="celsius-link">°C</a></span
+                <a href="#" id="celsius-link">°C</a> |
+                <a href="#" id="fahrenheit-link">°F</a></span
               >
             </div>
             <div class="col-6">
@@ -71,36 +71,7 @@
           <br />
           <p class="forecast">5-Day Forecast</p>
           <hr />
-          <div class="row">
-            <div class="col">Monday</div>
-            <div class="col">Tuesday</div>
-            <div class="col">Wednesday</div>
-            <div class="col">Thursday</div>
-            <div class="col">Friday</div>
-          </div>
-          <div class="row">
-            <div class="d-flex weather-emojis">
-              <div class="col">🌦</div>
-              <div class="col">☀️</div>
-              <div class="col">☁️</div>
-              <div class="col">☁️</div>
-              <div class="col">🌦</div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col">60°</div>
-            <div class="col">71°</div>
-            <div class="col">63°</div>
-            <div class="col">63°</div>
-            <div class="col">59°</div>
-          </div>
-          <div class="row">
-            <div class="col">H:62° L:54°</div>
-            <div class="col">H:74° L:63°</div>
-            <div class="col">H:66° L:57°</div>
-            <div class="col">H:66° L:57°</div>
-            <div class="col">H:61° L:50°</div>
-          </div>
+          <div class="weather-forecast" id="forecast"></div>
         </div>
       </div>
       <small>
